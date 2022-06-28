@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thủ tục thanh toán - Coffee Blend</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search.css">
+
+    <style>
+        .register:hover {
+            text-decoration: underline;
+        }
+        .billing-form {
+            padding-right: 50px !important;
+        }
+    </style>
+
+
+</head>
+<body>
+<!--Header-->
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="index.jsp">Coffee<small>Blend</small></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav" class="menu">
+            <ul class="navbar-nav ml-auto">
+                <li class="search_and_icon">
+                    <input type="text" class="form-control search align-left-search" placeholder="Tìm kiếm......">
+                    <a class="icon-search align-left-search"></a>
+                </li>
+                <li class="nav-item"><a href="index.jsp" class="nav-link">Trang chủ</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">Thực đơn</a></li>
+                <!--                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>-->
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Cửa hàng</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                        <a class="dropdown-item" href="about.html">Về chúng tôi</a>
+                        <a class="dropdown-item" href="shop.html">Cửa hàng</a>
+                        <!--                        <a class="dropdown-item" href="services.html">Dịch vụ</a>-->
+                        <a class="dropdown-item" href="product-details.html">Chi tiết sản phẩm</a>
+                        <a class="dropdown-item" href="cart.html">Giỏ hàng</a>
+                        <a class="dropdown-item" href="checkout.html">Thanh toán</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Liên hệ</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="shop.html" id="dropdown05" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"><i class="icon-user"></i> Tài khoản</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown05">
+                        <a class="dropdown-item" href="login.jsp">Đăng nhập</a>
+                        <a class="dropdown-item" href="register.jsp">Đăng kí</a>
+                        <a class="dropdown-item" href="infoUser.jsp">Thông tin cá nhân</a>
+                    </div>
+                </li>
+
+                <li class="nav-item cart"><a href="cart.html" class="nav-link"><span
+                        class="icon icon-shopping_cart"></span><span
+                        class="bag d-flex justify-content-center align-items-center"><small>1</small></span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Content-->
+<section class="home-slider owl-carousel">
+
+    <div class="slider-item" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row slider-text justify-content-center align-items-center">
+
+                <div class="col-md-7 col-sm-12 text-center ftco-animate">
+                    <h1 class="mb-3 mt-5 bread">Thủ tục thanh toán</h1>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Trang chủ</a></span>
+                        <span>Thanh toán</span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 ftco-animate">
+                <form action="#" class="billing-form ftco-bg-dark p-3 p-md-5">
+                    <h3 class="mb-4 billing-heading">Thủ tục thanh toán</h3>
+                    <div class="row align-items-end">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="firstname">Tên và tên đệm</label>
+                                <input type="text" class="form-control" placeholder="" id="firstname">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="lastname">Họ</label>
+                                <input type="text" class="form-control" placeholder="" id="lastname">
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="province">Tỉnh / Thành phố</label>
+                                <div class="select-wrap">
+                                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                    <select name="" id="" class="form-control" id="province">
+                                        <option value="">TP. Hồ Chí Minh</option>
+                                        <option value="">Hà Nội</option>
+                                        <option value="">Đà Nẵng</option>
+                                        <option value="">Hải Phòng</option>
+                                        <option value="">Cần Thơ</option>
+                                        <option value="">Thừa Thiên Huế</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="streetaddress">Địa chỉ</label>
+                                <input type="text" class="form-control" placeholder="Số nhà" id="streetaddress">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control"
+                                       placeholder="Tên đường">
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="district">Quận / Huyện</label>
+                                <input type="text" class="form-control" placeholder="" id="district">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="wards">Phường / Xã</label>
+                                <input type="text" class="form-control" placeholder="" id="wards">
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="phone">Số điện thoại</label>
+                                <input type="text" class="form-control" placeholder="" id="phone">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="emailAddress">Địa chỉ Email</label>
+                                <input type="text" class="form-control" placeholder="" id="emailAddress">
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md-12 register">
+                            <a href="register.html">Đăng ký tài khoản?</a>
+                        </div>
+                    </div>
+                </form><!-- END -->
+
+
+                <div class="row mt-5 pt-3 d-flex">
+                    <div class="col-md-6 d-flex">
+                        <div class="cart-detail cart-total ftco-bg-dark p-3 p-md-4">
+                            <h3 class="billing-heading mb-4">Chi tiết thanh toán</h3>
+                            <p class="d-flex">
+                                <span>Tổng tạm thời</span>
+                                <span>$20.60</span>
+                            </p>
+                            <p class="d-flex">
+                                <span>Phí giao hàng</span>
+                                <span>$0.00</span>
+                            </p>
+                            <p class="d-flex">
+                                <span>Giảm giá</span>
+                                <span>$3.00</span>
+                            </p>
+                            <hr>
+                            <p class="d-flex total-price">
+                                <span>Thành tiền</span>
+                                <span>$17.60</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cart-detail ftco-bg-dark p-3 p-md-4">
+                            <h3 class="billing-heading mb-4">Phương thức thanh toán</h3>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="radio">
+                                        <label><input type="radio" name="optradio" class="mr-2"> Direct Bank
+                                            Tranfer</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="radio">
+                                        <label><input type="radio" name="optradio" class="mr-2"> Check Payment</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="radio">
+                                        <label><input type="radio" name="optradio" class="mr-2"> Paypal</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" class="mr-2"> Tôi đã đọc và đồng ý với
+                                            điều khoản của cửa hàng</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <p><a href="#" class="btn btn-primary py-3 px-4">Đặt hàng</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- .col-md-8 -->
+
+
+            <div class="col-xl-4 sidebar ftco-animate">
+                <div class="sidebar-box">
+                    <form action="#" class="search-form">
+                        <div class="form-group">
+                            <div class="icon">
+                                <span class="icon-search"></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Tìm kiếm...">
+                        </div>
+                    </form>
+                </div>
+                <div class="sidebar-box ftco-animate">
+                    <div class="categories">
+                        <h3>Thể loại</h3>
+                        <li><a href="#">Cà phê máy <span>(12)</span></a></li>
+                        <li><a href="#">Cold brew <span>(22)</span></a></li>
+                        <li><a href="#">Matcha - Socola <span>(37)</span></a></li>
+                        <li><a href="#">Thức uống trái cây <span>(42)</span></a></li>
+                        <li><a href="#">Trà sữa Macchiato <span>(14)</span></a></li>
+                    </div>
+                </div>
+
+                <div class="sidebar-box ftco-animate">
+                    <h3>Tin tức</h3>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
+                                blind texts</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
+                                blind texts</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="blog-img mr-4" style="background-image: url(images/image_3.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
+                                blind texts</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-box ftco-animate">
+                    <h3>Tag Cloud</h3>
+                    <div class="tagcloud">
+                        <a href="#" class="tag-cloud-link">cà phê máy</a>
+                        <a href="#" class="tag-cloud-link">cold brew</a>
+                        <a href="#" class="tag-cloud-link">matcha</a>
+                        <a href="#" class="tag-cloud-link">socola</a>
+                        <a href="#" class="tag-cloud-link">thức uống trái cây</a>
+                        <a href="#" class="tag-cloud-link">trà sữa</a>
+                        <a href="#" class="tag-cloud-link">macchiato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer-->
+<footer class="ftco-footer ftco-section img">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Về chúng tôi</h2>
+                    <p>Chúng tôi là đơn vị chuyên cung cấp Cafe nguyên chất, chất lượng cao, giá rẻ, uy tín hàng đầu Việt Nam!</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                        <li class="ftco-animate"><a href="#"><span class="icon-google"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-map"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+                <div class="ftco-footer-widget mb-4 ml-md-4">
+                    <h2 class="ftco-heading-2">Các thành viên</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/hoan1305" target="_blank" class="py-2 d-block"><i class="icon-user"></i>&nbsp;&nbsp;Hồ Như Hoan</a>
+                        </li>
+                        <li><a href="https://www.facebook.com/trieutien.nguyen.566" target="_blank" class="py-2 d-block"><i class="icon-user"></i>&nbsp;&nbsp;Nguyễn Triều Tiên</a>
+                        <li><a href="https://www.facebook.com/pham.nhi.7121" target="_blank" class="py-2 d-block"><i class="icon-user"></i>&nbsp;&nbsp;Lê Nguyễn Minh Đạt</a></li>
+                        </li>
+                        <!--                        <li><a href="#" class="py-2 d-block">Mixed</a></li>-->
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Địa chỉ cửa hàng</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon icon-map-marker"></span><span class="text">Trường Đại học Nông Lâm Thành phố Hồ Chí Minh, Quận Thủ Đức, Phường Linh Trung.</span>
+                            </li>
+
+                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">Nhom9@gmail.com</span></a>
+                            </li>
+                            <li><a href="#"><span class="icon icon-phone"></span><span
+                                    class="text">0339.7777.7777</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.4079845565907!2d108.10253121475031!3d10.932522342215707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3176830fbdee7559%3A0x609ed4fe60be595!2zQ8O0bmcgVHkgVE5ISCBWaeG7hW4gVGjDtG5nLVRpbiBI4buNYyBMw6ogVGhhbmg!5e0!3m2!1svi!2s!4v1540900378092"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Được thiết kế bởi Nhóm 9 - <script>document.write(new Date().getFullYear());</script>
+                    </br>   Nghiêm cấm ăn cắp (sao chép) dưới mọi hình thức!
+                    <!--                    This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a-->
+                    <!--                            href="https://colorlib.com" target="_blank">Colorlib</a>-->
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00"/>
+    </svg>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/jquery.timepicker.min.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+        var quantitiy = 0;
+        $('.quantity-right-plus').click(function (e) {
+
+            // Stop acting like a button
+            e.preventDefault();
+            // Get the field name
+            var quantity = parseInt($('#quantity').val());
+
+            // If is not undefined
+
+            $('#quantity').val(quantity + 1);
+
+
+            // Increment
+
+        });
+
+        $('.quantity-left-minus').click(function (e) {
+            // Stop acting like a button
+            e.preventDefault();
+            // Get the field name
+            var quantity = parseInt($('#quantity').val());
+
+            // If is not undefined
+
+            // Increment
+            if (quantity > 0) {
+                $('#quantity').val(quantity - 1);
+            }
+        });
+
+    });
+</script>
+
+
+</body>
+</html>
